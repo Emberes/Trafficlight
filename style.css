@@ -1,0 +1,52 @@
+*{
+    background-color: white;
+}
+
+body{
+    background-color: rgb(226, 222, 222);
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+    margin: 0; 
+}
+
+.red_box{
+    background: linear-gradient(red 50%, pink 50%);
+    height:100px;
+    width: 100px;
+    margin: 5px; 
+    border: 5px solid rgb(146, 34, 6);
+}
+
+.yellow_box{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    border: 5px solid rgb(199, 199, 14);
+}
+
+.green_box{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    border: 5px solid rgb(3, 99, 3);
+}
+
+.lil_yellow{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(235, 235, 153);
+    /* z-index: 1; */
+    margin: 50%;
+}
+
+.lil_green{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(150, 235, 150);
+    margin-right: auto;
+    margin-top: 50%;
+}
